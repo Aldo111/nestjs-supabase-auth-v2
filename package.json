@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-supabase-auth",
-  "version": "1.0.8",
-  "description": "NestJS Passport Strategy for Supabase Auth",
+  "name": "nestjs-supabase-auth-v2",
+  "version": "2.0.0",
+  "description": "NestJS Passport Strategy for Supabase v2 Auth. Fork of hiro1107's nestjs-supabase-auth",
   "main": "dist/index.js",
   "readmeFilename": "README.md",
   "files": [
@@ -29,14 +29,14 @@
     "auth",
     "authentication"
   ],
-  "author": "Atsuhiro Teshima",
+  "author": "Azarro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiro1107/nestjs-supabase-auth/issues"
   },
   "homepage": "https://github.com/hiro1107/nestjs-supabase-auth",
   "devDependencies": {
-    "@supabase/supabase-js": "^1.1.4",
+    "@supabase/supabase-js": "^2.12.1",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.20",
     "@types/passport-strategy": "^0.2.35",
